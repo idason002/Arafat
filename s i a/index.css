@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+
+
+
+#navbar {
+    background-color: rgb(95, 26, 26);
+    display: flex;
+    color: #fff;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+
+ul {
+    list-style: none;
+}
+/* HEADER */
+
+header{
+    background-color: #52170d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    color: #fff;
+    overflow: hidden;
+    height: 60px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.logo a{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.nav-input {
+    display: flex;
+    justify-content: right;
+
+}
+
+input {
+    border: none;
+    padding: .5rem;
+    border-radius: 4px;
+    padding: 10px 5px;
+    outline: none;
+    font-size: 22px;
+
+}
+
+#nav-btn {
+    background-color: #a0210b;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* MAIN BODY */
+
+#arafat-content {
+    background: url("image-5.jpg") no-repeat center center/cover;
+    width: 100%;
+    /* height: 100vh; */
+    height: calc(100vh - 60px);
+    display: flex;
+    color: #fff;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.body-paragraph {
+    padding: 10px 5px;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+
+#arafat-content .child-one {
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    padding: 2rem;
+}
+
+#arafat-content .child-two {
+    /* background-color: black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #a0210b;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: max-content;
+    padding: .5rem ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+footer{
+    padding: 10px 5px;
+    margin-top: 10px;
+}
